@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="script" href="/index.js" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<!-- Header secton -->
+		<section>
+			<div class="header-section">
+				<div class="topheader active">
+					<div class="header-menu">
+						<div class="menu-dropdown">
+							<button onClick="myFunction(0)" class="menu-btn">
+								<i id="open0" class="fa fa-ellipsis-h menu-fa"></i>
+								<i id="close0" class="fa fa-close" style="font-size: 20px"></i>
+								<span>MENU</span>
+							</button>
+							<div class="dropdown-bg-in" id="menuDropdown0">
+								<div class="dropdown-mobile">
+									<div class="menu-content">
+										<div class="dropdown-io">
+											<a href="#" class="dropbtn-io">Link 1</a>
+											<div class="dropdown-content-io">
+												<a href="#">Curriculum 2</a>
+												<a href="#">Link 3</a>
+												<a href="#">Academics and Learning</a>
+												<div class="dropdown-image">
+													<img src="./images/student.webp" alt="student" />
+												</div>
+											</div>
+										</div>
+										<div class="dropdown-io">
+											<a href="#about" class="dropbtn-io"
+												>Curriculum, Academics and Learning</a
+											>
+											<div class="dropdown-content-io">
+												<a href="#">Curriculum 2</a>
+												<a href="#">Link 3</a>
+												<a href="#">Academics and Learning</a>
+												<div class="dropdown-image">
+													<img src="./images/student.webp" alt="student" />
+												</div>
+											</div>
+										</div>
+										<a href="#contact">Explore the Campus</a>
+										<a href="#contact">School Community</a>
+										<a href="#contact">Life in Thailand</a>
+										<a href="#contact">School Stories</a>
+										<a href="#contact">Student Life</a>
+										<div class="dropdown-io">
+											<a href="#contact" class="dropbtn-io"
+												>Explore the Campus</a
+											>
+											<div class="dropdown-content-io">
+												<a href="#">Curriculum 2</a>
+												<a href="#">Link 3</a>
+												<a href="#">Academics and Learning</a>
+												<div class="dropdown-image">
+													<img src="./images/student.webp" alt="student" />
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="back-bg">
+										<div class="one-cloud"></div>
+										<div class="second-nature"></div>
+										<div class="three-back"></div>
+										<div class="four-empty"></div>
+									</div>
+								</div>
+								<!-- tab and mobile design -->
+								<div class="accordion-ta">
+									<button class="header-dropbtn accordion">
+										<i class="fa fa-user-o"></i>
+										PORTAL
+									</button>
+									<div class="panel">
+										<a href="#"><p>Lorem</p></a>
+									</div>
+									<button class="accordion">Section 1</button>
+									<div class="panel">
+										<a href="#"><p>Lorem</p></a>
+									</div>
+
+									<button class="accordion">Section 2</button>
+									<div class="panel">
+										<a href="#"><p>Lorem</p></a>
+									</div>
+
+									<button class="accordion">Section 3</button>
+									<div class="panel">
+										<p>Lorem</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="menu-dropdown">
+							<button onClick="myFunction(1)" class="menu-btn">
+								<i id="open1" class="fa fa-neuter menu-neuter"></i>
+								<i id="close1" class="fa fa-close" style="font-size: 20px"></i>
+								<span>SEARCH</span>
+							</button>
+							<div class="dropdown-bg" id="menuDropdown1">
+								<div class="dropdown-max">
+									<div class="site-search">
+										<div class="form-element">
+											<form class="form-action">
+												<div class="form-searchele">
+													<input
+														class="search-input"
+														type="text"
+														placeholder="Search Schools..."
+													/>
+												</div>
+												<button class="form-search-button">
+													<i class="fa fa-long-arrow-right"></i>
+												</button>
+											</form>
+										</div>
+									</div>
+									<div class="header-popular">
+										<span>POPULAR SEARCHES </span>
+										<div class="popular-data">
+											<nav>
+												<ul class="popular-list">
+													<li><a href="#">How to apply</a></li>
+													<li><a href="#">How to apply</a></li>
+													<li><a href="#">How to apply</a></li>
+													<li><a href="#">How to apply</a></li>
+													<li><a href="#">How to apply</a></li>
+													<li><a href="#">How to apply</a></li>
+													<li><a href="#">How to apply</a></li>
+													<li><a href="#">How to apply</a></li>
+													<li><a href="#">How to apply</a></li>
+													<li><a href="#">How to apply</a></li>
+													<li><a href="#">How to apply</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+									<div class="back-bg">
+										<div class="one-cloud"></div>
+										<div class="second-nature"></div>
+										<div class="three-back"></div>
+										<div class="four-empty"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="header-logo">
+							<img src="./images/logo.svg" alt="logo" />
+						</div>
+
+						<div class="header-dropdown">
+							<button class="header-dropbtn">
+								<i class="fa fa-user-o"></i>
+								PORTAL
+							</button>
+							<div class="header-dropdown-content">
+								<a href="#">Link 1</a>
+								<a href="#">Link 2</a>
+								<a href="#">Link 3</a>
+								<a href="#">Link 2</a>
+							</div>
+						</div>
+						<div class="menu-dropdown">
+							<button onClick="myFunction(2)" class="english-btn">
+								<img id="open2" src="./images/us.svg" alt="flag" />
+								<i id="close2" class="fa fa-close" style="font-size: 20px"></i>
+								<span>ENGLISH</span>
+							</button>
+							<div class="dropdown-bg" id="menuDropdown2">
+								<div class="dropdown-max">
+									<ul class="select-language">
+										<span>SELECT YOUR LANGUAGE</span>
+										<li>
+											<a href="#">
+												<img
+													src="./images/japanese-logo.svg"
+													alt="japanese-logo"
+												/>
+												日本語
+											</a>
+											<a href="#">
+												<img
+													src="./images/korean-logo.svg"
+													alt="japanese-logo"
+												/>
+												한국어
+											</a>
+											<a href="#">
+												<img
+													src="./images/chinese-logo.svg"
+													alt="japanese-logo"
+												/>
+												中文 (简体)
+											</a>
+											<a href="#">
+												<img
+													src="./images/thailand-logo.svg"
+													alt="japanese-logo"
+												/>
+												ภาษาไทย
+											</a>
+										</li>
+									</ul>
+									<div class="back-bg">
+										<div class="one-cloud"></div>
+										<div class="second-nature"></div>
+										<div class="three-back"></div>
+										<div class="four-empty"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p><a href="https://www.google.com/">Go to google</a></p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+				<p>scroll</p>
+			</div>
+			<!-- footer section -->
+			<footer class="footer-section">
+				<div class="footer-i">
+					<div class="">
+						<img src="./images/logo.svg" alt="logo" />
+					</div>
+					<div class="footer-cloud">
+						<i class="fa fa-cloud"></i>
+						<span>33°C</span>
+					</div>
+					<div class="footer-clock">
+						<i class="fa fa-clock-o"></i>
+						<div class="">
+							<span>10:48 AM</span>
+							<p>BANGKOK</p>
+						</div>
+					</div>
+					<div class="outdoor-text">
+						<b>PM2.5 - Outdoor Real Time:</b><br />
+						50 μg/m³ (136 US AQI) 1 Hour Avg: 47 μg/m³ (128 US AQI)
+					</div>
+					<div class="footer-inquire">
+						<button>Inquire <i class="fa fa-long-arrow-right"></i></button>
+						<button>Visit <i class="fa fa-long-arrow-right"></i></button>
+						<button>Apply <i class="fa fa-long-arrow-right"></i></button>
+					</div>
+				</div>
+			</footer>
+		</section>
+		<script>
+			var lastScroll = 0;
+			var isScrolled = false;
+			window.addEventListener("scroll", function () {
+				var topHeader = document.querySelector(".topheader");
+				var currentScroll =
+					window.pageYOffset ||
+					document.documentElement.scrollTop ||
+					document.body.scrollTop ||
+					0;
+				var scrollDirection = currentScroll < lastScroll;
+				var shouldToggle = isScrolled && scrollDirection;
+				isScrolled = currentScroll > 100;
+				topHeader.classList.toggle("active", shouldToggle);
+				lastScroll = currentScroll;
+			});
+		</script>
+		<script>
+			function myFunction(index) {
+				const isOpen = ![
+					...document.getElementById("menuDropdown" + index).classList,
+				].some((c) => c === "show-menu");
+				for (i = 0; i < 3; i++) {
+					if (i === index) {
+						if (isOpen) {
+							document
+								.getElementById("menuDropdown" + index)
+								.classList.add("show-menu");
+							document.getElementById("close" + i).style.display = isOpen
+								? "block"
+								: "none";
+							document.getElementById("open" + i).style.display = "none";
+						} else {
+							document.getElementById("close" + i).style.display = "none";
+							document
+								.getElementById("menuDropdown" + i)
+								.classList.remove("show-menu");
+							document.getElementById("open" + i).style.display = "block";
+						}
+					} else {
+						document.getElementById("close" + i).style.display = "none";
+						document
+							.getElementById("menuDropdown" + i)
+							.classList.remove("show-menu");
+						document.getElementById("open" + i).style.display = "block";
+					}
+				}
+				document.getElementsByTagName("body")[0].style.overflow = isOpen
+					? "hidden"
+					: "auto";
+			}
+		</script>
+		<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+				acc[i].addEventListener("click", function () {
+					this.classList.toggle("activein");
+					var panel = this.nextElementSibling;
+					if (panel.style.maxHeight) {
+						panel.style.maxHeight = null;
+					} else {
+						panel.style.maxHeight = panel.scrollHeight + "px";
+					}
+				});
+			}
+		</script>
+	</body>
+</html>
